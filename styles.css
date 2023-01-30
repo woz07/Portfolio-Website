@@ -1,0 +1,128 @@
+body {
+    background-color: #000000;
+    color: white;
+}
+
+.name {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 110px;
+}
+
+.fancy > .letter {
+    display: inline-block;
+    transition: transform 500ms ease;
+}
+
+.fancy:hover > .letter {
+    transition-duration: 1000ms;
+}
+
+.fancy:hover > .letter:nth-child(1) {
+    transform: translate(-80%, 60%) rotate(60deg);
+}
+
+.fancy:hover > .letter:nth-child(2) {
+    transform: translate(60%, -20%) rotate(-57deg);
+}
+
+.fancy:hover > .letter:nth-child(3) {
+    transform: translate(-40%, 76%) rotate(34deg);
+}
+
+.fancy:hover > .letter:nth-child(4) {
+    transform: translate(-30%, -23%) rotate(12deg);
+}
+
+.fancy:hover > .letter:nth-child(5) {
+    transform: translate(52%, 49%) rotate(-53deg);
+}
+
+.fancy:hover > .letter:nth-child(6) {
+    transform: translate(42%, -27%) rotate(-32deg);
+}
+
+.fancy:hover > .letter:nth-child(7) {
+    transform: translate(-12%, 10%) rotate(20deg);
+}
+
+.fancy:hover > .letter:nth-child(8) {
+    transform: translate(-45%, -53%) rotate(-56deg);
+}
+
+.fancy:hover > .letter:nth-child(9) {
+    transform: translate(-78%, 62%) rotate(-21deg);
+}
+
+.fancy:hover > .letter:nth-child(10) {
+    transform: translate(20%, -23%) rotate(84deg);
+}
+
+.fancy:hover > .letter:nth-child(11) {
+    transform: translate(32%, 74%) rotate(45deg);
+}
+
+.fancy:hover > .letter:nth-child(12) {
+    transform: translate(55%, 49%) rotate(-53deg);
+}
+
+.fancy:hover > .letter:nth-child(13) {
+    transform: translate(-23%, -21%) rotate(-42deg);
+}
+
+.fancy:hover > .letter:nth-child(14) {
+    transform: translate(-37%, 23%) rotate(-34deg);
+}
+
+
+.fancy:hover > .letter:nth-child(15) {
+    transform: translate(-23%, -21%) rotate(-42deg);
+}
+
+.greeting {
+    margin: 120px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.about_me_box, .myproject_box, .warning_box {
+    margin: auto;
+    padding: 30px;
+    background-color: rgb(15, 15, 15);
+    border-radius: 25px;
+    width: 50%;
+    margin-bottom: 200px;
+}
+
+.about_me_title, .myproject_title, .warning_title {
+    font-size: 20px;
+}
+
+.about_me_info, .myprojects_info {
+    font-size: 15px;
+    text-align: center;
+}
+
+h1, h2 {
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+.contact_info_box {
+    margin: auto;
+    padding: 30px;
+    background-color: rgb(15, 15, 15);
+    border-radius: 25px;
+    width: 50%;
+    margin-bottom: 200px;
+}
